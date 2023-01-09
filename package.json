@@ -3,16 +3,33 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
+    "start": "expo start --tunnel",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-firebase/app": "^16.5.0",
+    "@react-native-firebase/storage": "^16.5.0",
+    "@react-navigation/native": "^6.0.13",
+    "@react-navigation/stack": "^6.3.9",
     "expo": "~47.0.8",
+    "expo-camera": "^13.1.0",
+    "expo-image-multiple-picker": "^4.7.6",
+    "expo-image-picker": "^14.0.2",
     "expo-status-bar": "~1.4.2",
+    "firebase": "8.2.3",
+    "formik": "^2.2.9",
+    "jotai": "^1.12.1",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-firebase-hooks": "^3.0.5",
+    "react-native": "^0.70.5",
+    "react-native-gesture-handler": "~2.5.0",
+    "react-native-vector-icons": "^9.2.0",
+    "react-redux": "^8.0.4",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "zustand": "^4.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
